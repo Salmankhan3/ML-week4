@@ -14,5 +14,5 @@
 - [Task 4.1: Logistic Regression for Binary Classification](#task-41-logistic-regression-for-binary-classification)
 
 ## Task 4.1: Logistic Regression for Binary Classification
-*(4 hours)*
+
 
