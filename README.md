@@ -10,12 +10,13 @@
 ##  📘 Description
 In this repository i have implemented my machine learning internship  week 4 task.In the first task i have train logistic regression on breast cancer data and got accuracy of 97 % further more i have plot ROC curve and calcualte AUC value.
 In the Second Task i have trained K nearest neighbor algorithm on iris Data set.Plot Sepal length and Sepal width using scatter plot to visualize iris satosa and iris versicolor.Train KNN classifier with differenrt K values of 1,3,5,7,11,15.Plot the accuracy score for each K value.Train model using eucladian distance and manhatan distance.Lastly draw a decision boundry for k=5.In the third task I have implemented Decision Tree classifier using wine quality Dataset.Train Decision tree classifier using different max_depth value and got accuracy for each depth.Visualize tree and save as an image. Identify optimal depth(5).Calcualte feature importance for depth 5 and visualize it.Save the best model.
-In Task four i perform mulitclass classification on digit dataset.I have implement Logistic regression,K nearest neighbor ,and Decision tree algorithm. Compare their performance using accuracy score confusion metrix and classification report.Draw bar plot to visualize their accuracies
+In Task four i perform mulitclass classification on digit dataset.I have implement Logistic regression,K nearest neighbor ,and Decision tree algorithm. Compare their performance using accuracy score confusion metrix and classification report.Draw bar plot to visualize their accuracies.
 
 ## 📑 Table of Contents
 - [Task 4.1: Logistic Regression for Binary Classification (4 hours)](#task-41-logistic-regression-for-binary-classification)
 - [Task 4.2: K-Nearest Neighbors (KNN) Classification (3 hours)](#Task-42-K-Nearest-Neighbors-KNN-Classification)
 - [Task 4.3: Decision Tree Classifier (4 hours)](#Task-43-Decision-Tree-Classifier-(4-hours))
+- [Task 4.4: Multi-class Classification & Evaluation Metrics (3 hours)](#Task-44:-Multi-class-Classification-&-Evaluation-Metrics-)
 
 ## Task 4.1: Logistic Regression for Binary Classification
 1. Load Breast cancer dataset.
@@ -53,6 +54,7 @@ In Task four i perform mulitclass classification on digit dataset.I have impleme
     </tr>
   </tbody>
 </table>
+<br>
 ## Classification report:
 <table>
   <thead>
@@ -103,7 +105,7 @@ In Task four i perform mulitclass classification on digit dataset.I have impleme
 
 # Task 4.2: K-Nearest Neighbors (KNN) Classification (3 hours)
 In this task I have implemented  K-Nearest Neighbors (KNN) Classifier to classify iris flower based on sepal and petal length and width.Train the model using different K values and distance metrics.
-1. Train model on k= 1,3,5,7,11,= and 15 using eucaldain and manhatan distance metric
+1. Train model on k= 1,3,5,7,11,= and 15 using Euclidean and manhatan distance metric
 2. Calcualte acccuracy for each k and distance metric
 3. Visualize Accuracy
 4. Indentify optimal value of k which is 1 that give us accuracy  of 1.0 without beng overfit the model
@@ -149,4 +151,80 @@ When Distance metric  Manhatan
     <tr><td>15</td><td>1.00</td></tr>
   </tbody>
 </table>
-# Task 4.3: Decision Tree Classifier (4 hours)
+## Task 4.3: Decision Tree Classifier (4 hours)
+In this Task I have implemented Decision Tree classifier using wine quality Dataset.Train Decision tree classifier using different max_depth value and got accuracy for each depth.Visualize tree and save as an image. Identify optimal depth(5).Calcualte feature importance for depth 5 and visualize it. Save the best model.
+
+1. Load ”Winquat” Dataset.
+![](screenshots/Screenshot%20(207).png)
+
+2. Draw correlation metrix seaborn library.
+![](screenshots/Screenshot%20(208).png)
+
+4. Draw Wine quality distribution.
+
+![](screenshots/Screenshot%20(209).png)
+
+5. Define dependent and independent variable.Split the dataset.
+6. Train decision tree classifier with dept = 1, 3, 5, 7, 11  and 15.
+7. Calculate Accuracy and classification report.
+
+![](screenshots/Screenshot%20(210).png)
+
+8. Plot Accuracy and depth.
+
+![](screenshots/Screenshot%20(211).png)
+
+9. Draw tree with depth 5 and save tree as an image.
+
+![](screenshots/Screenshot%20(212).png)
+
+10. Calculate Feature importance and draw it using bar graph.
+ 
+![](screenshots/Screenshot%20(213).png)
+
+11. Save the model.
+
+![](screenshots/Screenshot%20(214).png)
+
+
+# Task 4.4: Multi-class Classification & Evaluation Metrics (3 hours)
+## Description:
+Perform multiclass classification on digit dataset. I have implement Logistic regression, K nearest neighbor, and Decision tree algorithm. Compare their performance using accuracy score confusion Metrix and classification report Draw bar plot to visualize their accuracies.
+
+1. Load Digit Dataset.
+
+![](screenshots/Screenshot%20(215).png)
+
+
+2. Train logistic regression and calculate their accuracy and classification report.
+
+
+![](screenshots/Screenshot%20(216).png)
+
+3. Train KNN Classifier and calculate their accuracy and classification report.
+
+![](screenshots/Screenshot%20(217).png)
+
+Train Decision Tree Classifier and calculate their accuracy and classification report.
+
+![](screenshots/Screenshot%20(218).png)
+
+
+4. Compare each model accuracy.
+
+![](screenshots/Screenshot%20(219).png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
