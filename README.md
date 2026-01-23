@@ -104,7 +104,7 @@ In Task four i perform mulitclass classification on digit dataset.I have impleme
 
 # Task 4.2: K-Nearest Neighbors (KNN) Classification (3 hours)
 In this task I have implemented  K-Nearest Neighbors (KNN) Classifier to classify iris flower based on sepal and petal length and width.Train the model using different K values and distance metrics.
-1. Train model on k= 1,3,5,7,11,= and 15 using eucaldain and manhatan distance metric
+1. Train model on k= 1,3,5,7,11,= and 15 using Euclidean and manhatan distance metric
 2. Calcualte acccuracy for each k and distance metric
 3. Visualize Accuracy
 4. Indentify optimal value of k which is 1 that give us accuracy  of 1.0 without beng overfit the model
