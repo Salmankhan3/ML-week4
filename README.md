@@ -53,6 +53,7 @@ In Task four i perform mulitclass classification on digit dataset.I have impleme
     </tr>
   </tbody>
 </table>
+<br>
 ## Classification report:
 <table>
   <thead>
@@ -149,4 +150,4 @@ When Distance metric  Manhatan
     <tr><td>15</td><td>1.00</td></tr>
   </tbody>
 </table>
-# Task 4.3: Decision Tree Classifier (4 hours)
+## Task 4.3: Decision Tree Classifier (4 hours)
