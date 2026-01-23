@@ -8,13 +8,13 @@
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/SalmanKhan3/ML-week2)
 
 ##  📘 Description
-### In this repository i have implemented my machine learning internship  week 4 task.In the first task i have train logistic regression on breast cancer data and got accuracy of 97 % further more i have plot ROC curve and calcualte AUC value.
+In this repository i have implemented my machine learning internship  week 4 task.In the first task i have train logistic regression on breast cancer data and got accuracy of 97 % further more i have plot ROC curve and calcualte AUC value.
 In the Second Task i have trained K nearest neighbor algorithm on iris Data set.Plot Sepal length and Sepal width using scatter plot to visualize iris satosa and iris versicolor.Train KNN classifier with differenrt K values of 1,3,5,7,11,15.Plot the accuracy score for each K value.Train model using eucladian distance and manhatan distance.Lastly draw a decision boundry for k=5.In the third task I have implemented Decision Tree classifier using wine quality Dataset.Train Decision tree classifier using different max_depth value and got accuracy for each depth.Visualize tree and save as an image. Identify optimal depth(5).Calcualte feature importance for depth 5 and visualize it.Save the best model.
 In Task four i perform mulitclass classification on digit dataset.I have implement Logistic regression,K nearest neighbor ,and Decision tree algorithm. Compare their performance using accuracy score confusion metrix and classification report.Draw bar plot to visualize their accuracies
 
 ## 📑 Table of Contents
 - [Task 4.1: Logistic Regression for Binary Classification (4 hours)](#task-41-logistic-regression-for-binary-classification)
-- [Task 4.2: K-Nearest Neighbors (KNN) Classification (3 hours)](#Task-42-K-Nearest-Neighbors-(KNN)-Classification)
+- [Task 4.2: K-Nearest Neighbors (KNN) Classification (3 hours)](#Task-42-K-Nearest-Neighbors-KNN-Classification)
 - [Task 4.3: Decision Tree Classifier (4 hours)](#Task-43-Decision-Tree-Classifier-(4-hours))
 
 ## Task 4.1: Logistic Regression for Binary Classification
